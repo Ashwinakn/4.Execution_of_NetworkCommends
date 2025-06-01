@@ -1,4 +1,8 @@
+
 # 4.Execution_of_NetworkCommands
+**Name:** Ashwina K N
+
+**Register Number:** 212223230025
 ## AIM :Use of Network commands in Real Time environment
 ## Software : 
 Command Prompt And Network Protocol Analyzer
@@ -37,9 +41,9 @@ s.bind(('localhost'8000))
 s.listen(5) 
 c,addr=s.accept() 
 while True: 
-hostname=c.recv(1024).decode() 
+**Name:** Ashwina K N
 try: 
-c.send(str(ping(hostname, verbose=False)).encode()) 
+**Name:** Ashwina K N
 except KeyError: 
 c.send("Not Found".encode())
 ```
@@ -62,9 +66,7 @@ result, unans = traceroute(target,maxttl=32)
 print(result,unans)
 ```
 ## Output
-![image](https://github.com/user-attachments/assets/1e51ccd0-0109-4509-9d08-839242853aa7)
-
-![image-2](https://github.com/user-attachments/assets/8ae331c6-ad6d-45db-8d89-5afda5a3346d)
-
+![alt text](image.png)
+![alt text](image-2.png)
 ## Result
 Thus Execution of Network commands Performed 
